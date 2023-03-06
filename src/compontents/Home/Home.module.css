@@ -1,9 +1,26 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    border: 1vw solid white;
+    border: 0.2vw solid rgba(255, 255, 0, 0.557);
+    border-radius: 0.5vw;
     width: 60vw;
-    height: 40vw;
+    height: 45vw;
     margin-left: 9vw;
+    margin-top: 5vw;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.saludo {
+    color: white;
+}
+
+.presentacion {
+    color: white;
+    align-items: center;
+    justify-self: center;
 }
