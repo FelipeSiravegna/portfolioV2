@@ -1,9 +1,10 @@
 import './App.css'
+import Home from './compontents/Home/Home'
 
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio Felipe Siravegna V2!</h1>
+      <Home />
     </div>
   )
 }
