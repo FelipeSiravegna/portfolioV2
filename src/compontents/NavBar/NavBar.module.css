@@ -13,24 +13,25 @@
 .navBarItem {
     display: flex;
     color: white;
-    border: 0.2vw solid rgba(255, 255, 0, 0.557);
+    border: 0.5vw solid yellow;
     border-radius: 0.5vw;
-    width: 60%;
-    padding: 0.6vw;
+    width: 70%;
+    padding: 0.4vw;
     justify-content: center;
     cursor: pointer;
     text-decoration: none;
 }
 
 .navBarItem:hover {
-    background-color: rgba(255, 255, 0, 0.557);
+    background-color: yellow;
     border: 0.2vw solid white;
     transform: scale(1.1);
     transition: all 0.5s;
+    color: black;
 }
 
 .navBarItem:not(:hover) {
     transform: scale(1);
-    border: 0.2vw solid rgba(255, 255, 0, 0.557);
+    border: 0.2vw solid yellow;
     transition: all 0.5s;
 }
