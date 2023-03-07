@@ -6,7 +6,7 @@
     align-items: center;
     height: 100vh;
     width: 20%;
-    gap: 1vw;
+    gap: 1.5vw;
     border-right: 0.25vw solid grey;
     border-left: 0.25vw solid grey;
 }
@@ -14,10 +14,7 @@
 .navBarItem {
     display: flex;
     color: white;
-    border: 0.5vw solid grey;
-    border-radius: 0.5vw;
-    width: 70%;
-    padding: 0.4vw;
+    width: 101%;
     justify-content: center;
     cursor: pointer;
     text-decoration: none;
@@ -26,14 +23,16 @@
 
 .navBarItem:hover {
     background-color: white;
-    border: 0.2vw solid black;
-    transform: scale(1.1);
+    border-top: 0.3vw solid black;
+    border-bottom: 0.3vw solid black;
+    transform: scale(1, 1.15);
     transition: all 0.5s;
     color: black;
 }
 
 .navBarItem:not(:hover) {
     transform: scale(1);
-    border: 0.2vw solid white;
+    border-top: 0.3vw solid grey;
+    border-bottom: 0.3vw solid grey;
     transition: all 0.5s;
 }
