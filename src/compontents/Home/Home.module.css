@@ -1,27 +1,69 @@
 .container {
     background-color: #3a445a;
     position: fixed;
-    border: 0.25vw solid grey;
+    border: 0.25vw solid white;
     border-radius: 0.5vw;
-    width: 78%;
-    height: 96%;
-    margin-left: 20%;
+    width: 68%;
+    margin-top: 7.5%;
+    height: 70%;
+    margin-left: 25%;
+    justify-content: center;
+    text-align: center;
 }
 
 .info {
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 15%;
     align-items: center;
+    height: 100%;
+}
+
+.clickableImages {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    justify-content: space-evenly;
+}
+
+.infoImages:not(:hover) {
+    height: 5vw;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.infoImages:hover {
+    height: 5vw;
+    transform: scale(1.125);
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .saludo {
+    margin-top: -1vw;
+    font-size: 3vw;
     color: white;
+    height: 3vw;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    height: 25vw;
+    border: 0.25vw solid white;
+    border-radius: 1vw;
 }
 
 .presentacion {
     color: white;
-    align-items: center;
-    justify-self: center;
+}
+
+.yellow {
+    color: yellow
 }
