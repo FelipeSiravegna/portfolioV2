@@ -1,20 +1,19 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    background-color: #3a445a;
+    position: fixed;
     border: 0.25vw solid grey;
     border-radius: 0.5vw;
-    width: 70vw;
-    height: 50vw;
-    margin-left: 4.1vw;
-    background-color: #3a445a;
+    width: 78%;
+    height: 96%;
+    margin-left: 20%;
 }
 
 .skills {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3vw;
+    height: 90%;
+    margin-top: 5%;
 }

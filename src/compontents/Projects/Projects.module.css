@@ -1,9 +1,9 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    border: 1vw solid white;
-    width: 60vw;
-    height: 40vw;
-    margin-left: 9vw;
+    background-color: #3a445a;
+    position: fixed;
+    border: 0.25vw solid grey;
+    border-radius: 0.5vw;
+    width: 78%;
+    height: 96%;
+    margin-left: 20%;
 }
