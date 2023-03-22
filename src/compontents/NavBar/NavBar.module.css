@@ -12,6 +12,7 @@
     gap: 1.5vw;
     border-right: 0.25vw solid grey;
     border-left: 0.25vw solid grey;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navBarItem {

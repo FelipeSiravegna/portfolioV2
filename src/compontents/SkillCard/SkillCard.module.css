@@ -1,11 +1,13 @@
 .container:hover {
     transform: scale(1.125);
     transition: all 0.5s;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container:not(:hover) {
     transform: scale(1);
     transition: all 0.5s;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .skillImg {
